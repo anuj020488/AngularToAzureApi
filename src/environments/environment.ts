@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://angularaccesssitecreation.azurewebsites.net/api/SiteCreationFunc?code=Pjg91Rma2n4BRTvOeFSl3DS7osut7htFqs4AhdeewHqRykuRqv5HLQ==&titleSite=0070-1111-FuncApp-H1111&url=AngularTest&clientCode=sub1&clientTitle=sub1',
+  aadClientId: '32e5d0c1-89d9-4b3a-89ec-3a3f8776ae68',
+  redirectUrl: 'http://localhost:4200/',
+  aadUserReadScope: 'api://32e5d0c1-89d9-4b3a-89ec-3a3f8776ae68/default',
+  apiBaseUrl: 'https://angularaccesssitecreation.azurewebsites.net/'
 };
 
 /*
